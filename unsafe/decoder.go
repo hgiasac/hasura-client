@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hgiasac/hasura-client-simple"
+	"github.com/hgiasac/hasura-client"
 )
 
 func Decode(r io.ReadCloser, v interface{}) error {
