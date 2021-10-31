@@ -23,6 +23,8 @@ type QueryResult struct {
 	Result     [][]string      `json:"result"`
 }
 
+// queryClient implement schema APIs
+// https://hasura.io/docs/latest/graphql/core/api-reference/schema-api/index.html
 type queryClient struct {
 	url    string
 	client *http.Client

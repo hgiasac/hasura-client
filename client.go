@@ -7,6 +7,8 @@ import (
 
 // Client implements the query and metadata client
 type Client struct {
+	// Query implement schema APIs
+	// https://hasura.io/docs/latest/graphql/core/api-reference/schema-api/index.html
 	Query *queryClient
 }
 

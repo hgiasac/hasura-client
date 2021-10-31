@@ -1,6 +1,6 @@
 # Hasura Client
 
-A Hasura client for query and metadata APIs
+A Hasura client for schema APIs https://hasura.io/docs/latest/graphql/core/api-reference/index.html
 
 ## Usage
 
